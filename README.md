@@ -38,3 +38,6 @@ pip install torch transformers langchain pinecode
 This project is licensed under the [MIT License](LICENSE).
 
 ---
+
+## Blog
+Read about [Vector Database Architecture](https://arshad-kazi.com/vector-database-and-its-architecture/)
