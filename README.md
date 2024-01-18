@@ -4,7 +4,7 @@
 
 ## Overview
 
-The Smart PDF Reader is a comprehensive project that harnesses the power of the Retrieval-Augmented Generation (RAG) model over a Large Language Model (LLM) powered by Langchain. Additionally, it utilizes the Pinecode vector database to efficiently store and retrieve vectors associated with PDF documents. This approach enables the extraction of essential information from PDF files without the need for training the model on question-answering datasets.
+The Smart PDF Reader is a comprehensive project that harnesses the power of the Retrieval-Augmented Generation (RAG) model over a Large Language Model (LLM) powered by Langchain. Additionally, it utilizes the Pinecone vector database to efficiently store and retrieve vectors associated with PDF documents. This approach enables the extraction of essential information from PDF files without the need for training the model on question-answering datasets.
 
 ## Features
 
@@ -12,7 +12,7 @@ The Smart PDF Reader is a comprehensive project that harnesses the power of the 
 
 2. **Langchain-powered Large Language Model (LLM)**: Langchain enhances the capabilities of the Large Language Model, providing advanced language understanding and context.
 
-3. **Pinecode Vector Database**: Utilizing Pinecode's vector database allows for efficient storage and retrieval of document vectors, optimizing the overall performance of the Smart PDF Reader.
+3. **Pinecone Vector Database**: Utilizing Pinecone's vector database allows for efficient storage and retrieval of document vectors, optimizing the overall performance of the Smart PDF Reader.
 
 4. **PDF Information Extraction**: The system focuses on extracting information directly from PDF files, eliminating the need for extensive training on question answering datasets.
 
@@ -24,7 +24,7 @@ The Smart PDF Reader is a comprehensive project that harnesses the power of the 
 - PyTorch
 - Transformers library
 - Langchain
-- Pinecode
+- Pinecone
 
 You can install the required dependencies using the following command:
 
