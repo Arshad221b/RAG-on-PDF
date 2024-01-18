@@ -48,7 +48,6 @@ class TextFilter:
         with open(self.file_path, 'r') as file:
             lines = file.read()
 
-        # Remove Roman numerals
         pattern_roman = r'\b(?:I{1,3}|IV|V|IX|X{1,3}|XL|L|XC|C{1,3}|CD|D|CM|M)\.\b'
         pattern_digit = r'\d+'
         pattern_multispace = r'\s+'
@@ -58,9 +57,6 @@ class TextFilter:
         lines = re.sub(pattern_digit, '', lines)
         lines = re.sub(pattern_multispace, ' ', lines)
         lines = re.sub(pattern_smallwords, '', lines)
-
-
-        # Remove lines with less than 4 characters
 
         with open(self.file_path, 'w') as file:
             file.write(lines)
@@ -75,7 +71,6 @@ class TextFilter:
 
 
 if __name__ == "__main__":
-    # Replace 'your_file.txt' with the actual path to your text file
     filter_instance = TextFilter('/Users/arshad_221b/Documents/Documents - Arshad’s MacBook Pro - 1/Projects/Lanchain Pinecone/meditations copy 2.text')
     filter_instance.clean_text()
 
