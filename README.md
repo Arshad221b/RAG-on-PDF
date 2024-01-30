@@ -29,7 +29,7 @@ The Smart PDF Reader is a comprehensive project that harnesses the power of the 
 You can install the required dependencies using the following command:
 
 ```bash
-pip install torch transformers langchain pinecode
+pip install torch transformers langchain pinecone
 ```
 
 
